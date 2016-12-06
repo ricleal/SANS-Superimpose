@@ -4,16 +4,37 @@ SANS superimpose.
 
 For SANS
 
-Finds K (scale factor) + b to superimpose all the curves given as parameters
-
-![]('imgs/raw_log.png')
-
-![]('imgs/fit_log.png')
-
-![]('imgs/fit_log_q_range.png')
+Finds K (scale factor) + b to superimpose all the curves given as parameters:
 
 ```
 I(scaled) = f * I(original) – b
+```
+
+**Raw datasets:**
+
+![](imgs/raw_log.png)
+
+
+**Fitted datasets:**
+
+![](imgs/fit_log.png)
+
+**Fitted datasets within `q > 0.01` and `q < 0.04` :**
+
+![](imgs/fit_log_q_range.png)
+
+** Table with the fit results: **
+
+```
+File                            K    Err(K)        b    Err(b)
+-------------------------  ------  --------  -------  --------
+data_1/Si_8m12A_abs_1.txt  0.0000    0.0000   0.0000    0.0000
+data_1/Si_8m12A_abs_2.txt  1.2026    0.0606   0.0099    0.0871
+data_1/Si_8m12A_abs_3.txt  1.3134    0.0660  -0.0116    0.0863
+data_1/Si_8m12A_abs_4.txt  1.4970    0.0753  -0.0335    0.0857
+data_1/Si_8m12A_abs_5.txt  1.7412    0.0876  -0.0385    0.0856
+data_1/Si_8m12A_abs_6.txt  2.0064    0.1010   0.0537    0.0882
+data_1/Si_8m12A_abs_7.txt  2.6015    0.1312   0.1567    0.0913
 ```
 
 ## Dependencies
