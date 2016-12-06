@@ -1,11 +1,10 @@
-# SuperImpose
+# SANS SuperImpose
 
-SANS superimpose.
+Small Angle (Neutron) Scattering superimpose `I(q)` curves.
 
-For SANS
+Given several `I(q)` curves, finds K (scale factor) and b (y-intercept) so all the curves are superimposed.
 
-Finds K (scale factor) + b to superimpose all the curves given as parameters:
-
+Equation:
 ```
 I(scaled) = f * I(original) – b
 ```
