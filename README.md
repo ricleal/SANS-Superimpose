@@ -23,7 +23,7 @@ I(scaled) = f * I(original) – b
 
 ![](imgs/fit_log_q_range.png)
 
-** Table with the fit results: **
+**Table with the fit results:**
 
 ```
 File                            K    Err(K)        b    Err(b)
